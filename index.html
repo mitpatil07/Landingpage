@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadpool</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary" syaria-label="Light offcanvas navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="logo" href="#">DeadPool</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <div id="header"  class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light text-center">Welcome To DeadPool Fan Club</h1>
+            <p id="para" class="lead text-body-secondary">Deadpool isn’t just a hero. He’s a vibe. He breaks the fourth wall, cracks jokes while kicking butt,<br> and brings a unique mix of chaos and charm that no other superhero can match.</p>
+            <p>
+              <a id="header-btn" href="#" class="btn btn-primary center mb-4">Join Us</a>
+            </p>
+        </div>
+
+        <div id="carouselExampleCaptions " class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="deadpool1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Deadpool In action mode</h5>
+                  <p>Powers: Accelerated healing, martial arts, swordsmanship, and a knack for sarcasm</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="deadpool1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="deadpool1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+          <div class="container my-5">
+            <!-- First Card: Image on the right, Description on the left -->
+            <div class="card mb-4" id="cardbg">
+                <div class="row g-0">
+                    <!-- Left side: Description -->
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Deadpool: The Merc with a Mouth</h5>
+                            <p class="card-text">Deadpool, also known as Wade Winston Wilson, is one of Marvel's most unconventional and beloved characters. With his trademark humor, unfiltered sarcasm, and over-the-top antics, Deadpool has carved a unique niche in the superhero (and anti-hero) world.</p>
+                        </div>
+                    </div>
+                    <!-- Right side: Image -->
+                    <div class="col-md-4">
+                        <img src="deadpool.jpg" class="img-fluid rounded-end rounded-5" alt="Horse Image">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Second Card: Image on the left, Description on the right (Reverse Layout) -->
+            <div class="card" id="cardbg">
+                <div class="row g-0">
+                    <!-- Left side: Image -->
+                    <div class="col-md-4">
+                        <img src="deadpool1.jpg" class="img-fluid rounded-start rounded-5" alt="Horse Image">
+                    </div>
+                    <!-- Right side: Description -->
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Origins</h5>
+                            <p class="card-text">Wade Wilson started as a mercenary with a troubled past. After being diagnosed with terminal cancer, he underwent a risky experiment in the Weapon X program that granted him an accelerated healing factor—but at a cost. The procedure left him horribly scarred but nearly immortal. Unlike traditional heroes, Deadpool walks the line between chaos and justice, often following his own set of (questionable) moral codes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container my-5">
+          <h2 class="text-center mb-4">Frequently Asked Questions (FAQ)</h2>
+          
+          <!-- FAQ Accordion -->
+          <div class="accordion" id="faqAccordion">
+              <!-- Question 1 -->
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Who is Deadpool?
+                      </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                          Deadpool, also known as Wade Wilson, is a Marvel anti-hero known for his sarcastic humor, healing factor, and ability to break the fourth wall. He’s a mercenary with a chaotic personality and a love for chimichangas.
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- Question 2 -->
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          What are Deadpool's powers?
+                      </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                          Deadpool’s primary power is his regenerative healing factor, which allows him to recover from almost any injury. He’s also a skilled martial artist, expert swordsman, and a master of all things chaotic.
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- Question 3 -->
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Why does Deadpool break the fourth wall?
+                      </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                          Deadpool’s fourth-wall-breaking ability makes him unique in the Marvel universe. He’s aware he’s a fictional character and uses this to engage directly with the audience, often adding humor and commentary about his own storylines.
+                      </div>
+                  </div>
+              </div>
+      
+              <!-- Question 4 -->
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          What are Deadpool's favorite things?
+                      </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                      <div class="accordion-body">
+                          Deadpool loves chimichangas, sarcasm, and a good fight. He also has a soft spot for pop culture references and making his enemies (and friends) laugh—or cringe—with his over-the-top antics.
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+
+        <div class="container my-5">
+            <!-- Header -->
+            <h2 class="text-center mb-4">Our Featured Animals</h2>
+    
+            <!-- Row for Cards -->
+            <div class="row d-flex justify-content-between">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;     background-color: #dbe8ff;
+                    ">
+                        <img src="deadpool.jpg" class="card-img-top" alt="Horse Image">
+                        <div class="card-body">
+                            <p class="card-text">Join us as we dive into Deadpool’s quirks, explore his comic arcs, and speculate on his next movie adventures.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 2 -->
+                <div  class="col-md-4">
+                    <div class="card " style="width: 18rem;    background-color: #dbe8ff;
+                    ">
+                        <img src="deadpool1.jpg" class="card-img-top " alt="Horse Image">
+                        <div class="card-body">
+                            <p class="card-text">Join us as we dive into Deadpool’s quirks, explore his comic arcs, and speculate on his next movie adventures. </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 3 -->
+                <diV class="col-md-4">
+                    <div class="card " style="width: 18rem;     background-color: #dbe8ff;
+                    ">
+                        <img src="deadpool2.jpg" class="card-img-top" id="img-bg"alt="Horse Image">
+                        <div class="card-body">
+                            <p class="card-text">Join us as we dive into Deadpool’s quirks, explore his comic arcs, and speculate on his next movie adventures.</p>
+                        </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+
+        <div>
+            <div class="container my-5 ">
+            <h1>Contact Us</h1>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter the Name">
+              </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Drop The Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+        </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
